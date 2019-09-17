@@ -1,4 +1,5 @@
-def hoogte_boete (snelheid):
+#functie om te kijken of iemand een boete verdient en zo ja hoe hoog
+def hoogteBoete (snelheid):
     if snelheid < 55:
         return "ok" 
     elif snelheid < 60:
